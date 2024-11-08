@@ -34,3 +34,17 @@ header ul {
 h3 {
     color: hotpink;
 }
+
+/* footer */
+footer {
+    min-height: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 200, 125);
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
