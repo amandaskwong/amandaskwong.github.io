@@ -23,3 +23,9 @@ header a:hover{
     color: hotpink;
 }
 
+header ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding-top: 1em;
+}
