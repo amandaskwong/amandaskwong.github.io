@@ -9,6 +9,8 @@ body {
     font-family: "Poppins", 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
+    min-height: 400px;
+    margin-bottom: 100px;
 }
 
 body strong {
@@ -89,13 +91,9 @@ img {
 }
 
 /* about me page */
-#bio header {
-    background-color: hotpink;
-
-}
-
-#bio header a:hover{
-    color: rgb(255, 200, 125);
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 
 #bio h3 {
@@ -111,19 +109,48 @@ img {
 }
 
 #bio table thead {
+    background-color: rgb(255, 200, 125);
     color: hotpink;
-}
-
-#bio footer {
-    background-color: hotpink;
 }
 
 /* contact */
 #contact table {
     width: 100%;
     text-align: center;
+    max-height: fit-content;
+}
+
+#contact table a {
+    border-radius: 50px;
+    background-color: hotpink;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#contact table a:hover {
+    background-color: rgb(255, 200, 125);
 }
 
 .even {
     color: rgb(160, 0, 53);
+}
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+
+
+    header {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    header ul {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0em;
+    }
 }
