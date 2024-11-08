@@ -6,7 +6,7 @@
 
 /* body */
 body {
-    font-family: "Poppins", "courier";
+    font-family: "Poppins", 'Courier New', Courier, monospace;
     display: flex;
     flex-direction: column;
 }
@@ -75,7 +75,9 @@ figure {
     border: 2px solid black;
     border-radius: 3px;
     padding: 10px 10px;
+    margin: 10px;
     max-width: fit-content;
+    max-height: fit-content;
 }
 
 figcaption {
@@ -86,7 +88,16 @@ img {
     max-width: 100%;
 }
 
-/* about me biography */
+/* about me page */
+#bio header {
+    background-color: hotpink;
+
+}
+
+#bio header a:hover{
+    color: rgb(255, 200, 125);
+}
+
 #bio h3 {
     color: rgb(203, 193, 229);
 }
@@ -103,8 +114,16 @@ img {
     color: hotpink;
 }
 
+#bio footer {
+    background-color: hotpink;
+}
+
 /* contact */
 #contact table {
     width: 100%;
     text-align: center;
+}
+
+.even {
+    color: rgb(160, 0, 53);
 }
