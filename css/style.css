@@ -51,6 +51,11 @@ h3 {
     color: hotpink;
 }
 
+/* links */
+a {
+    color: hotpink;
+}
+
 /* footer */
 footer {
     min-height: 5px;
