@@ -102,3 +102,9 @@ img {
 #bio table thead {
     color: hotpink;
 }
+
+/* contact */
+#contact table {
+    width: 100%;
+    text-align: center;
+}
