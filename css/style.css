@@ -85,3 +85,20 @@ figcaption {
 img {
     max-width: 100%;
 }
+
+/* about me biography */
+#bio h3 {
+    color: rgb(203, 193, 229);
+}
+
+/* bio tables */
+#bio table, #bio table td, #bio table th {
+    border: 1px solid black;
+    padding: 5px 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#bio table thead {
+    color: hotpink;
+}
