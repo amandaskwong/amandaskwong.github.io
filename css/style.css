@@ -3,3 +3,23 @@
 :root {
     font-size: 62.5%;
 }
+
+/* header */
+header {
+    background-color: rgb(255, 200, 125);
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: hotpink;
+}
+
