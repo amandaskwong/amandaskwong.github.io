@@ -4,6 +4,17 @@
     font-size: 62.5%;
 }
 
+/* body */
+body {
+    font-family: "Poppins", "courier";
+    display: flex;
+    flex-direction: column;
+}
+
+body strong {
+    color: hotpink;
+}
+
 /* header */
 header {
     background-color: rgb(255, 200, 125);
