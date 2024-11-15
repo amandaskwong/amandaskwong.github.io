@@ -14,8 +14,12 @@ const hour = getDate.getHours();
 
 if(hour <= 11) {
     greeting.textContent = 'Good morning!'
+    greeting.style.color = 'rgb(170, 239, 240)'
 } if(hour >= 12 && hour < 17) {
     greeting.textContent = 'Good afternoon!'
+    greeting.textContent.style.color = 'rgb(148, 193, 242)';
 } if(hour >= 17) {
     greeting.textContent = 'Good evening!'
+    greeting.style.color = 'rgb(198, 148, 242)';
 }
+
