@@ -23,3 +23,18 @@ if(hour <= 11) {
     greeting.style.color = 'rgb(198, 148, 242)';
 }
 
+// button click
+const btn = document.getElementById('btn-alert');
+btn.addEventListener("click", () => {
+    alert('Drink some water!')
+})
+
+// button hover
+btn.addEventListener("mouseover", () => {
+    btn.style.backgroundColor = 'blue'
+})
+btn.addEventListener("mouseout", () => {
+    btn.style.backgroundColor = ''
+})
+
+
