@@ -72,6 +72,16 @@ footer p {
     text-align: center;
 }
 
+/* main page button */
+button {
+    background-color: rgb(203, 193, 229);
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
 /* images */
 figure {
     border: 2px solid black;
