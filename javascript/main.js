@@ -31,7 +31,7 @@ btn.addEventListener("click", () => {
 
 // button hover
 btn.addEventListener("mouseover", () => {
-    btn.style.backgroundColor = 'blue'
+    btn.style.backgroundColor = 'hotpink'
 })
 btn.addEventListener("mouseout", () => {
     btn.style.backgroundColor = ''
